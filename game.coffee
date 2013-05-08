@@ -92,7 +92,6 @@ scoreMove = (grid, swapCoordinates) ->
   moveScore *= multiplier
   {moveScore, newWords}
 
-
 wordsThroughTile = (grid, x, y) ->
   strings = []
   for length in [MIN_WORD_LENGTH..GRID_SIZE]
